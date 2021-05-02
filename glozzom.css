@@ -1,0 +1,232 @@
+body h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #000;
+}
+
+.nav-item {
+    padding-left: 1rem
+}
+
+.carousel-item {
+    height: 450px
+}
+
+.carousel-img-1 {
+    background: url("sli1.jpg");
+    background-size: cover;
+}
+
+.carousel-img-2 {
+    background: url("sli2.jpg");
+    background-size: cover;
+}
+
+.carousel-img-3 {
+    background: url("sli3.jpg");
+    background-size: cover;
+}
+
+#home-icon i {
+    font-size: 1.75rem
+}
+
+#home-icon .lead {
+    margin-bottom: 0px!important
+}
+
+#getStarted {
+    background: url("bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative
+}
+
+#getStarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#home-info {
+    font-weight: 500px;
+    font-size: 1.75rem
+}
+
+#image1 {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#home-video-section {
+    background: url("people.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative
+}
+
+#home-video-section i {
+    font-size: 3rem;
+    color: red
+}
+
+#home-video-section h3 {
+    font-size: 2rem;
+}
+
+#home-video-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#photo-gallery img {
+    min-height: 300px;
+}
+
+#subscribe-box h3 {
+    font-size: 2rem
+}
+
+#copyright-section {
+    background: rgb(0, 0, 0)
+}
+
+#aboutUs h3 {
+    font-size: 2rem;
+}
+
+#aboutUs {
+    background: url("about.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    position: relative
+}
+
+#aboutUs .dark-overlay {
+    background: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#moto {
+    width: 350px;
+    height: 350px;
+}
+
+#aboutBoxes i {
+    font-size: 3rem
+}
+
+#service {
+    background: url("service.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    position: relative
+}
+
+#service.dark-overlay {
+    background: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#service h3 {
+    font-size: 2rem;
+}
+
+#header a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+#accordion h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#blog {
+    background: url("service.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    position: relative
+}
+
+#blog.dark-overlay {
+    background: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#blog span {
+    color: #7D858C
+}
+
+#contact {
+    background: url("contact.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    position: relative
+}
+
+#contact.dark-overlay {
+    background: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#contact h3 {
+    font-size: 2rem;
+}
+
+@media( max-width: 767px) {
+    .nav-item {
+        padding-left: 0rem!important;
+    }
+}
+
+@media(max-width:480px) {
+    .carousel h1 {
+        font-size: 2.5rem;
+    }
+    #getStarted {
+        min-height: 400px;
+    }
+}
